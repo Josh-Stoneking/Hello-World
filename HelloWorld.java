@@ -10,5 +10,11 @@ public class HelloWorld {
         } else {
             System.out.println("It's not a duck.");
         }
+        // This is a super change!
+        printCube();
+    }
+
+    public static void printCube() {
+        System.out.println("+----+\n|    |\n|    |\n+----+");
     }
 }
